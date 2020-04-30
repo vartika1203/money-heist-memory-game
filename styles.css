@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 0.2%
+}
+h1{
+  color:#ffff00;
+}
+
+.btn {
+  /*margin: 2px;*/
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 8px solid black;
+  border-radius: 20%;
+}
+.characters {
+  margin-bottom: 0;
+  display: inline-block;
+ margin-top: 0;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+#btn1 {
+  background-image: url('images/professor.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+
+#btn2 {
+  background-image: url('images/lisbon.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+
+#btn3 {
+  background-image: url('images/tokyo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+#btn4 {
+  background-image: url('images/rio.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+#btn5 {
+  background-image: url('images/nairobi.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+#btn6  {
+  background-image: url('images/helsinki.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+
+}
+
+
+#btn7 {
+  background-image: url('images/denver.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+
+#btn8 {
+  background-image: url('images/stockholm.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+
+#btn9 {
+  background-image: url('images/berlin.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+
+#btn10 {
+  background-image: url('images/arturo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
