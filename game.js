@@ -70,7 +70,7 @@ function nextSequence(){
 		var randomChosenNum= buttonNum[randomNumber];
 		gamePattern.push(randomChosenNum);
    
-   $("#"+ "btn"+ randomChosenNum).fadeIn(100).fadeOut(100).fadeIn(100);
+   $("#"+ randomChosenNum).fadeIn(100).fadeOut(100).fadeIn(100);
     playSound(randomChosenNum);
     // console.log(randomChosenNum);
 
